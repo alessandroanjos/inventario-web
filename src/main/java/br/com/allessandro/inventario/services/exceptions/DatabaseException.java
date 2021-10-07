@@ -1,10 +1,10 @@
 package br.com.allessandro.inventario.services.exceptions;
 
-public class EntityNotFoundException  extends RuntimeException {
+public class DatabaseException  extends RuntimeException {
 
 	private static final long serialVersionUID = 1L;
 	
-	public EntityNotFoundException(String msg) {
+	public DatabaseException(String msg) {
 		super(msg);
 	}
 
